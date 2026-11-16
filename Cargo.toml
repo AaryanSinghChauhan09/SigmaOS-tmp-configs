@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-tmp-configs"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS tmp-configs component"
+
+[lib]
+name = "tmp_configs"
+path = "src/lib.rs"
