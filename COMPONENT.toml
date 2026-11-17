@@ -3,12 +3,12 @@ name = "SigmaOS-tmp-configs"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "tmp-configs component"
+description = "TMP configs component for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
